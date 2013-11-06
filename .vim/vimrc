@@ -1,0 +1,55 @@
+set nocompatible
+" Pathogen
+" Initialisation de pathogen
+"call pathogen#infect()
+"call pathogen#helptags() 
+
+" Line numbers : 
+set number
+
+" Colorscheme : 
+syntax on
+colorscheme Tomorrow-Night
+
+set showcmd
+
+set history=100
+
+" Highlight ({...
+set showmatch
+
+" Highlight search and hop
+set hlsearch
+set incsearch
+
+" Highlight cursor line
+set cursorline
+
+set ignorecase
+filetype off
+set encoding=utf-8
+
+" Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" " required! 
+Bundle 'gmarik/vundle'
+Bundle 'nerdtree'
+Bundle 'vim-airline'
+"Bundle 'powerline'
+"Bundle 'git://github.com/Lokaltog/vim-powerline.git'
+"Bundle 'git://github.com/Lokaltog/powerline.git'
+"let g:Powerline_symbols = "fancy"
+"let g:airline#extensions#tabline#enabled = 1
+filetype plugin indent on     " required!
+
+""""""""""""""""""""""""""""""
+" airline
+""""""""""""""""""""""""""""""
+let g:airline_theme             = 'powerlineish'
+let g:airline_enable_branch     = 1
+let g:airline_enable_syntastic  = 1
+let g:airline_powerline_fonts = 1 
+set laststatus=2

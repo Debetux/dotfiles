@@ -1,0 +1,55 @@
+! Pas de barre de défilement
+URxvt*scrollBar: False
+
+! Dimension du terminal
+URxvt*geometry: 120x40 
+
+! Lien cliquable
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:      firefox
+URxvt.matcher.button:   3
+
+
+! Prise en charge des onglets
+! shift+bas ou clic sur NEW= ouvrir nouvel onglet, 
+! shift + fleche gauche/droite=navigation dans les onglets. 
+! ctrl + fleche gauche/droite= deplacement onglet
+! ctrl+d ou taper exit = fermer onglet/terminal
+!URxvt.perl-ext-common:  default,tabbed
+!URxvt.perl-ext-common: default
+URxvt.font: xft:Inconsolata-dz for Powerline:size=10
+!URxvt.font: xft:Source Code Pro for Powerline:size=15
+!URxvt.font: xft:Monaco for Powerline:size=10
+
+*foreground: #c5c8c6
+*background: #1d1f21
+*cursorColor: #aeafad
+*color0: #000000
+*color1: #912226
+*color2: #778900
+*color3: #ae7b00
+*color4: #1d2594
+*color5: #682a9b
+*color6: #2b6651
+*color7: #929593
+*color8: #666666
+*color9: #cc6666
+*color10: #b5bd68
+*color11: #f0c674
+*color12: #81a2be
+*color13: #b294bb
+*color14: #8abeb7
+*color15: #ecebec
+
+! Misc settings
+URxvt*cursorBlink : false
+URxvt*cursorUnderline : true
+URxvt*intensityStyles : true
+URxvt*jumpScroll : true
+URxvt*pointerBlank : true
+URxvt*saveLines : 4096
+URxvt*skipBuiltinGlyphs : false
+URxvt*skipScroll : true
+URxvt*urgentOnBell : true
+URxvt*visualBell : true
+URxvt*internalBorder : 2
