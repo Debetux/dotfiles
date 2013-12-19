@@ -5,7 +5,7 @@ URxvt*scrollBar: False
 URxvt*geometry: 120x40 
 
 ! Lien cliquable
-URxvt.perl-ext-common:  default,matcher
+!URxvt.perl-ext-common:  default,matcher
 URxvt.urlLauncher:      firefox
 URxvt.matcher.button:   3
 
@@ -15,7 +15,7 @@ URxvt.matcher.button:   3
 ! shift + fleche gauche/droite=navigation dans les onglets. 
 ! ctrl + fleche gauche/droite= deplacement onglet
 ! ctrl+d ou taper exit = fermer onglet/terminal
-!URxvt.perl-ext-common:  default,tabbed
+URxvt.perl-ext-common:  default,tabbed,matcher
 !URxvt.perl-ext-common: default
 URxvt.font: xft:Inconsolata-dz for Powerline:size=10
 !URxvt.font: xft:Source Code Pro for Powerline:size=15
