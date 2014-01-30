@@ -1,0 +1,15 @@
+# required by app-misc/ranger (argument)
+=app-misc/ranger-1.6.1 ~amd64
+# required by x11-wm/awesome-3.5.2
+# required by =x11-wm/awesome-3.5.2 (argument)
+=dev-lua/lgi-0.7.2 ~amd64
+# required by x11-wm/awesome-3.5.2
+# required by =x11-wm/awesome-3.5.2 (argument)
+=x11-libs/xcb-util-cursor-0.1.1 ~amd64
+# required by =x11-wm/awesome-3.5.2 (argument)
+=x11-wm/awesome-3.5.2 ~amd64
+# required by =x11-misc/pcmanfm-1.1.2 (argument)
+=x11-misc/pcmanfm-1.1.2 ~amd64
+# required by x11-misc/pcmanfm-1.1.2
+# required by =x11-misc/pcmanfm-1.1.2 (argument)
+=x11-libs/libfm-1.1.4 ~amd64

@@ -1,0 +1,64 @@
+x11-base/xorg-server udev
+# required by media-libs/mesa-9.1.6
+# required by x11-base/xorg-server-1.14.3-r2[-minimal]
+# required by x11-drivers/xf86-input-synaptics-1.7.1
+# required by x11-base/xorg-drivers-1.14[input_devices_synaptics]
+=dev-libs/libxml2-2.9.1-r1 python
+# required by x11-wm/awesome-3.4.15
+# required by awesome (argument)
+=media-gfx/imagemagick-6.8.6.8 png
+# required by x11-misc/habak-0.2.5-r1
+# required by x11-wm/awesome-3.4.15
+# required by awesome (argument)
+=media-libs/imlib2-1.4.5-r1 X png
+# required by x11-wm/awesome-3.4.15
+# required by awesome (argument)
+=x11-libs/cairo-1.12.14-r4 xcb
+=x11-terms/rxvt-unicode-9.18 256-color alt-font-width perl xft -vanilla
+# required by www-client/firefox-24.2.0
+# required by firefox (argument)
+=x11-libs/pango-1.34.1 X
+# required by x11-libs/pango-1.34.1
+# required by x11-libs/gtk+-2.24.22
+# required by www-client/firefox-24.2.0
+# required by firefox (argument)
+=x11-libs/cairo-1.12.14-r4 X
+# required by www-client/firefox-24.2.0
+# required by firefox (argument)
+>=media-libs/libpng-1.6.8 apng
+# required by www-client/firefox-24.2.0
+# required by firefox (argument)
+=dev-lang/python-2.7.5-r3 sqlite
+=app-editors/vim-7.3.762 X cscope -debug -gpm -minimal perl python ruby vim-pager
+=app-editors/gvim-7.3.762 gtk
+# required by x11-wm/awesome-3.5.2
+# required by =x11-wm/awesome-3.5.2 (argument)
+=dev-lua/lgi-0.7.2 ~amd64
+# required by x11-wm/awesome-3.5.2
+# required by =x11-wm/awesome-3.5.2 (argument)
+=x11-libs/xcb-util-cursor-0.1.1 ~amd64
+# required by =x11-wm/awesome-3.5.2 (argument)
+=x11-wm/awesome-3.5.2 ~amd64
+=media-libs/imlib2-1.4.5-r1 png jpeg
+=www-client/w3m-0.5.3-r1 nls ssl unicode -X -fbcon -gpm gtk imlib -lynxkeymap -migemo -nntp -xface
+# required by virtual/udev-208
+# required by gnome-base/gvfs-1.16.4[udev]
+# required by x11-libs/libfm-1.1.4[-udisks]
+# required by x11-misc/pcmanfm-1.1.2
+# required by =x11-misc/pcmanfm-1.1.2 (argument)
+=sys-fs/udev-208 gudev
+# required by gnome-base/gvfs-1.16.4[udev]
+# required by x11-libs/libfm-1.1.4[-udisks]
+# required by x11-misc/pcmanfm-1.1.2
+# required by =x11-misc/pcmanfm-1.1.2 (argument)
+>=virtual/udev-208 gudev
+# required by www-client/chromium-32.0.1700.77
+# required by chromium (argument)
+=dev-libs/libxml2-2.9.1-r1 icu
+# required by www-client/chromium-32.0.1700.77
+# required by chromium (argument)
+=media-libs/harfbuzz-0.9.23 icu
+# required by www-client/chromium-32.0.1700.77
+# required by chromium (argument)
+>=sys-libs/zlib-1.2.8-r1 minizip
+
